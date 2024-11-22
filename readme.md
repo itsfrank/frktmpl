@@ -48,7 +48,7 @@ local __tq_hello = ""
 print(__tq_hello)
 
 -- becomes
-local __t_hello = ""
+local __tq_hello = ""
 print("Hello")
 ```
 
