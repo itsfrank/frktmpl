@@ -3,6 +3,13 @@ version = "0.1.0"
 description = "niche templating system for processing luau source code"
 authors = ["Francis O'Brien <github.com/itsfrank>"]
 license = "MIT"
+includes = [
+    "src",
+    "pesde.toml",
+    "README.md",
+    "LICENSE",
+    ".luaurc",
+]
 
 [target]
 environment = "lune"
