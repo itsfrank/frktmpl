@@ -8,5 +8,8 @@ license = "MIT"
 environment = "lune"
 lib = "src/_pesde_init.luau"
 
+[indices]
+default = "https://github.com/daimond113/pesde-index"
+
 [dev_dependencies]
 frktest = { name = "itsfrank/frktest", version = "^0.0.1" }
