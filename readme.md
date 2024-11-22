@@ -38,6 +38,18 @@ local world = "World"
 print(hello .. " " .. world)
 ```
 
+Note that by default, a pattern that immediately follows `local` will be ignored, this lets you define variables for the patterns so your code remains valis Luau:
+
+```lua
+-- template
+local __tq_hello = ""
+print(__tq_hello)
+
+-- becomes
+local __t_hello = ""
+print("Hello")
+```
+
 ## use
 
 frktmpl can be used either as a library, or a cli with `lune run ./bin/frktmpl.luau input_template replacement.json`
