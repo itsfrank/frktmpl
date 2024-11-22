@@ -1,14 +1,12 @@
 name = "itsfrank/frktmpl"
 version = "0.1.0"
-description = "niche templating system for luau source code"
+description = "niche templating system for processing luau source code"
 authors = ["Francis O'Brien <github.com/itsfrank>"]
 license = "MIT"
 
 [target]
 environment = "lune"
-
-[indices]
-default = "https://github.com/daimond113/pesde-index"
+lib = "src/_pesde_init.luau"
 
 [dev_dependencies]
 frktest = { name = "itsfrank/frktest", version = "^0.0.1" }
