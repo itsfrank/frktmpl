@@ -38,7 +38,9 @@ local world = "World"
 print(hello .. " " .. world)
 ```
 
-Note that by default, a pattern that immediately follows `local` will be ignored, this lets you define variables for the patterns so your code remains valis Luau:
+Note that by default, a pattern that immediately follows `local` will be
+ignored, this lets you define variables for the patterns so your code remains
+valis Luau (this can be turned off in the engine options):
 
 ```lua
 -- template
